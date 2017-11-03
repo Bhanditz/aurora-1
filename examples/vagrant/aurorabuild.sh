@@ -43,7 +43,7 @@ function build_admin_client {
 }
 
 function build_scheduler {
-  ./gradlew installDist
+  ./gradlew installDist --no-daemon
 
   export LD_LIBRARY_PATH=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server
   sudo mkdir -p /var/db/aurora

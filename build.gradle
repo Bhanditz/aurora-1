@@ -244,7 +244,7 @@ sourceSets {
 dependencies {
   def guiceRev = '3.0'
   def jerseyRev = '1.18.1'
-  def shiroRev = '1.2.3'
+  def shiroRev = '1.2.5'
 
   def gsonDep = "com.google.code.gson:gson:${gsonRev}"
   def guavaDep = "com.google.guava:guava:${guavaRev}"
